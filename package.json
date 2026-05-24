@@ -1,0 +1,42 @@
+{
+  "name": "create-susanoo-ui",
+  "version": "1.0.0",
+  "description": "A simple template creator for small projects",
+  "keywords": [
+    "css",
+    "html",
+    "js",
+    "sass",
+    "template",
+    "npm",
+    "scaffolding"
+  ],
+  "homepage": "https://github.com/Vattghern203/create-susanoo-ui#readme",
+  "bugs": {
+    "url": "https://github.com/Vattghern203/create-susanoo-ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vattghern203/create-susanoo-ui.git"
+  },
+  "license": "MIT",
+  "author": "Otávio A. Barbiéri",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-susanoo-ui": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "fs-extra": "^11.3.5",
+    "inquirer": "^13.4.3",
+    "ora": "^9.4.0"
+  }
+}
